@@ -2,6 +2,7 @@
 <html>
 <head>
   <title>Portfolio Repository</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap">
   <style>
     body {
       font-size: 16px;
@@ -13,6 +14,9 @@
       text-align: center;
       transition: opacity 0.3s ease; /* Adding a smooth transition effect */
     }
+    h1:hover {
+      opacity: 0.7; /* Redundant */
+    }
     h2 {
       font-size: 24px;
       text-align: center;
@@ -20,6 +24,23 @@
     p {
       font-size: 20px;
       text-align: center;
+    }
+    .research-section {
+      margin-bottom: 30px;
+    }
+    .research-details {
+      font-size: 14px;
+      color: #777;
+      margin: 0;
+    }
+    .research-location {
+      font-size: 14px;
+      color: #777;
+      margin-top: 5px;
+    }
+    .research-highlights {
+      list-style: disc;
+      padding-left: 20px;
     }
   </style>
 </head>
@@ -43,6 +64,41 @@
   <p>ISEN320 Ops Research I | ISEN340 Ops Research II | ISEN310 Uncertainty Statistical Modeling</p>
   <br>
   <h2>Research</h2>
+  <section class="research-section">
+    <h2>Sketch Recognition Lab</h2>
+    <p class="research-details">Aug 2018 – Dec 2018</p>
+    <p class="research-details">Undergraduate Researcher</p>
+    <p class="research-location">College Station, TX</p>
+    <ul class="research-highlights">
+      <li>Redesigned a vest prototype to enhance accessibility for the visually impaired.</li>
+      <li>Developed a prototype mobile application using JavaScript, Noodl, and Android Studio IDE.</li>
+    </ul>
+  </section>
+
+  <section class="research-section">
+    <h2>Trust in Human-Robot Teams</h2>
+    <p class="research-details">Jan 2022 – Oct 2022</p>
+    <p class="research-details">Game Developer & System Administrator</p>
+    <p class="research-location">College Station, TX</p>
+    <ul class="research-highlights">
+      <li>Created a multiplayer simulation in Unity Game Engine (C#) with Robot OS to optimize emergency response routes.</li>
+      <li>Utilized physiological devices (fNIRS, EEG, Actiheart, Tobii Pro, Empatica E4) to capture and analyze data.</li>
+      <li>Utilized Neurokit2 python framework to transpose neurophysiological signal data into actionable insights in Visual Studio.</li>
+      <li>Conducted root cause analysis with Linux, Python and BASH scripting to create LAN game prototype.</li>
+    </ul>
+  </section>
+    <section class="research-section">
+    <h2>Senior Capstone Design</h2>
+    <p class="research-details">Jan 2023 – May 2023</p>
+    <p class="research-details">Student Participant</p>
+    <p class="research-location">College Station, TX</p>
+    <ul class="research-highlights">
+      <li>Streamlined aid retention process using data analysis techniques for “The Food Basket”, a 501c3 nonprofit in Clute, TX.</li>
+      <li>Integrated R-Studio and Microsoft PowerBI to streamline the data sanitization and analysis process.</li>
+      <li>Employed Microsoft PowerBI for interactive visualizations and insightful reporting.</li>
+      <li>Collaborated with the team to optimize the analysis workflow.</li>
+    </ul>
+  </section>
   <br>
   <h2>Projects</h2>
   <br>
